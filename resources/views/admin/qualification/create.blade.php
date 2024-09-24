@@ -1,7 +1,7 @@
 @extends('admin.layouts.admin')
 
 @section('content')
-{{-- 
+{{--
 <div class="main-panel">
     <div class="content-wrapper"> --}}
 <div class="col-12 grid-margin stretch-card">
@@ -21,7 +21,7 @@
         <form class="forms-sample" method="POST" action="{{ route('admin.qualification.store') }}">
           @csrf
             <div class="form-group">
-            <label for="exampleInputName1">Title</label>
+            <label for="exampleInputName1">title</label>
             <input type="text" class="form-control" id="exampleInputName1" name="title" placeholder="Title" value="{{old('title')}}" required>
           </div>
           <div class="form-group">

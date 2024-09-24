@@ -63,14 +63,14 @@
                     <h3 class="mb-4">{{ $setting->about_title }}</h3>
                     <p>{{ $setting->about_description }}</p>
                     <div class="row mb-3">
-                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">{{ $user?->name }}</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">{{ $user?->birth_day }}</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">{{ $user?->degree }}</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">{{ $user?->experience }} Years</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">{{ $user?->phone }}</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">{{ $user?->email }}</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">{{ $user?->address }}</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Name:<span class="text-secondary">{{ $user?->name }}</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Birthday:<span class="text-secondary">{{ $user?->birth_day }}</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Degree:<span class="text-secondary">{{ $user?->degree }}</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Experience:<span class="text-secondary">{{ $user?->experience }} Years</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Phone:<span class="text-secondary">{{ $user?->phone }}</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Email:<span class="text-secondary">{{ $user?->email }}</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Address:<span class="text-secondary">{{ $user?->address }}</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Freelance:<span class="text-secondary">Available</span></h6></div>
                     </div>
                     <a href="{{ $setting->freelance_url }}" class="btn btn-outline-primary mr-4">Hire Me</a>
                     {{-- <a href="" class="btn btn-outline-primary">Learn More</a> --}}

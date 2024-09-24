@@ -3,12 +3,12 @@
 @section('content')
 
                 <div class="col-lg-12 grid-margin stretch-card">
-                    
+
                     <div class="card">
                       <div class="card-body">
                         <h4 class="card-title">Education Records</h4>
                         <a href="{{ route('admin.qualification.create')}}">
-                        <button type="button" class="btn btn-primary btn-fw ">Add New</button>
+                        <button type="button" class="btn btn-primary btn-fw "> Add New</button>
                         </a>
                         {{-- <p class="card-description"></code> --}}
                         </p>
@@ -29,11 +29,11 @@
                               <td> {{ $education -> id }} </td>
                               <td>{{ $education -> title }} </td>
                               <td>
-                                {{ $education -> association }} 
+                                {{ $education -> association }}
                               </td>
                               <td>  {{ substr($education -> description,0,20)  }} ...  </td>
                               <td>  {{ $education -> from }} - {{ $education -> to }}   </td>
-                              <td> 
+                              <td>
                                 <a href="{{ route('admin.qualification.edit', $education->id) }}">
                                 <button type="button" class="btn btn-success btn-sm">Edit</button>
                                 </a>
@@ -45,14 +45,14 @@
                             </td>
                             </tr>
                             <tr>
-                                
+
                                 @endforeach
                           </tbody>
                         </table>
                       </div>
                     </div>
                   </div>
-{{-- 
+{{--
             </div>
         </div> --}}
 @endsection
